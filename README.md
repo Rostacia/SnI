@@ -1,6 +1,6 @@
 # Gauss-Legendre Quadrature Subroutine
 
-This repository contains a Fortran90 implementation of the Gauss-Legendre Quadrature algorithm in the subroutine `GaussLegendreQuadrature` in [Link to GQ.f90](GQ.f90). The Gauss-Legendre method is a numerical integration technique that approximates the definite integral of a function. The provided code efficiently computes the abscissas and weights of the Gauss-Legendre N-point quadrature formula for a given range of integration.
+This repository contains a Fortran90 implementation of the Gauss-Legendre Quadrature algorithm in the subroutine `GaussLegendreQuadrature` in [GQ.f90](GQ.f90). The Gauss-Legendre method is a numerical integration technique that approximates the definite integral of a function. The provided code efficiently computes the abscissas and weights of the Gauss-Legendre N-point quadrature formula for a given range of integration.
 Gauss-Legendre Quadrature is particularly useful for accurately approximating definite integrals without requiring a large number of function evaluations. By providing this implementation in Fortran90, this repository aims to assist researchers and developers in efficiently computing integrals within their projects.
 
 Feel free to integrate this code into your Fortran projects to streamline the calculation of definite integrals with high precision and computational efficiency.
@@ -37,7 +37,7 @@ The subroutine utilizes an iterative process to calculate the abscissas and weig
 
 ### Example Usage
 
-To run the provided example code [Link to GQEx.f90](GQEx.f90), follow these steps:
+To run the provided example code [GQEx.f90](GQEx.f90), follow these steps:
 
 1. Compile the Fortran code including the `GaussLegendreQuadrature` subroutine.
 2. Ensure that the subroutine is accessible from the main program.
