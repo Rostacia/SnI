@@ -1,4 +1,4 @@
-Subroutine GaussLegendreQuadrature(X1, X2, X, W, N)
+Subroutine GAULEG(X1, X2, X, W, N)
 Implicit None
 Double Precision, Intent(IN) :: X1, X2
 Double Precision, Intent(OUT) :: X(N), W(N)
